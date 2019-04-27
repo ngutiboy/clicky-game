@@ -1,0 +1,52 @@
+.myHeader {
+  position: sticky;
+  top: 0;
+  background: yellowgreen;
+  min-height: 100px;
+  padding: 10px;
+  color: #fff;
+ }
+ .container {
+  display: flex;
+  justify-content: space-between;
+ }
+ .link, .link:hover {
+  color: #fff;
+  background: green;
+  
+ }
+ .myImage{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+ }
+ .images{
+  position: relative;
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+ }
+ 
+ .myImages{
+  min-height: 400px;
+  margin: 100px 10px;
+  display: inline;
+ }
+ 
+ .insertImages{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+ }
+ 
+ .myFooter{
+  background: blue;
+  min-height: 80px;
+  position: relative;
+  margin-bottom: 0;
+ }
+ 
